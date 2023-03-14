@@ -3,28 +3,28 @@ import random
 from tkinter import messagebox
 
 real_word = [
-    "GOAT",
-    "BOAT",
-    "RAIN",
-    "CODE",
-    "DISH",
-    "FISH",
-    "WASH",
-    "HAIR",
-    "NOSE",
-    "HAND"]
+    "RABBIT",
+    "TIGER",
+    "LION",
+    "HORSE",
+    "ELEPHANT",
+    "ZEBRA",
+    "BEAR",
+    "CAMEL",
+    "GIRAFFE",
+    "CHEETAH"]
 
 jumbled_word=[
-    "AOGT",
-    "TOAB",
-    "INRA",
-    "DECO",
-    "DHIS",
-    "SHFI",
-    "SWAH",
-    "IRHA",
-    "SENO",
-    "NDHA"]
+    "BARTBI",
+    "RITEG",
+    "NILO",
+    "SEORH",
+    "TANPEHEL",
+    "BEZAR",
+    "RBEA",
+    "MACLE",
+    "FIGARFE",
+    "HETECH"]
 
 options = random.randrange(0,len(jumbled_word),1)
 
